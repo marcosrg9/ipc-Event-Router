@@ -1,0 +1,31 @@
+{
+  "name": "ipc-event-router",
+  "version": "0.0.1",
+  "description": "Enrutador de eventos ipc para conectar proceso principal con renderizador en Electron",
+  "main": "dist/index.js",
+  "files": ["/dist"],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrg9/ipc-Event-Router.git"
+  },
+  "keywords": [
+    "ElectronJS",
+    "ipc",
+    "Renderer",
+    "Router",
+    "Events"
+  ],
+  "author": "Marcos Rodríguez Yélamo <marcosylrg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosrg9/ipc-Event-Router/issues"
+  },
+  "homepage": "https://github.com/marcosrg9/ipc-Event-Router#readme",
+  "devDependencies": {
+    "electron": "^13.2.2"
+  }
+}
